@@ -1,0 +1,17 @@
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\obj\Debug\netcoreapp3.1\OOP 2 Code.csprojAssemblyReference.cache
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\obj\Debug\netcoreapp3.1\OOP 2 Code.AssemblyInfoInputs.cache
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\obj\Debug\netcoreapp3.1\OOP 2 Code.AssemblyInfo.cs
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\GitRepositories_2b.txt
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\OOP 2 Code.exe
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\GitRepositories_1a.txt
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\GitRepositories_1b.txt
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\GitRepositories_2a.txt
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\GitRepositories_3a.txt
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\GitRepositories_3b.txt
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\OOP 2 Code.deps.json
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\OOP 2 Code.runtimeconfig.json
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\OOP 2 Code.runtimeconfig.dev.json
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\OOP 2 Code.dll
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\bin\Debug\netcoreapp3.1\OOP 2 Code.pdb
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\obj\Debug\netcoreapp3.1\OOP 2 Code.dll
+C:\Users\lukef\Documents\UNI\OOP\OOP 2\OOP 2 Code\OOP 2 Code\obj\Debug\netcoreapp3.1\OOP 2 Code.pdb
