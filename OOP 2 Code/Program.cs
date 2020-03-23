@@ -17,7 +17,6 @@ namespace OOP_2_Code
             Console.WriteLine("Please select first file to read \n GitRep_1a [1] \n GitRep_2a [2] \n GitRep_3a [3]");
             string first = Console.ReadLine();
 
-
             //if the user hasnt selected an appropriate option and the value for first isnt recognized, the previous segment is repeated
             while (first != "1" && first != "2" && first != "3")
             {
@@ -49,12 +48,12 @@ namespace OOP_2_Code
 
             //Asks user for input, string second is created and assigned as the users input
             //\n is used for formatting
-            Console.WriteLine("Please select first file to read GitRep_1b [1] GitRep_2b [2] GitRep_3b [3]");
+            Console.WriteLine("Please select second file to read GitRep_1b [1] GitRep_2b [2] GitRep_3b [3]");
             string second = Console.ReadLine();
             //if the user hasnt selected an appropriate option and the value for second isnt recognized, the previous segment is repeated
             while (second != "1" && second != "2" && second != "3")
             {
-                Console.WriteLine("Please select first file to read GitRep_1b [1] GitRep_2b [2] GitRep_3b [3]");
+                Console.WriteLine("Please select second file to read GitRep_1b [1] GitRep_2b [2] GitRep_3b [3]");
                 second = Console.ReadLine();
             }
     //SECOND SWITCH
