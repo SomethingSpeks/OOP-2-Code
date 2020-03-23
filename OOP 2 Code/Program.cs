@@ -65,13 +65,12 @@ namespace OOP_2_Code
             Console.WriteLine(fileName1,  "File has been read \n");
 
             //Asks user for input, string second is created and assigned as the users input
-            //\n is used for formatting
-            Console.WriteLine("Please select second file to read GitRep_1b [1] GitRep_2b [2] GitRep_3b [3]");
+            Console.WriteLine("Please select second file to read \nGitRep_1b [1] \nGitRep_2b [2] \nGitRep_3b [3]");
             string second = Console.ReadLine();
             //if the user hasnt selected an appropriate option and the value for second isnt recognized, the previous segment is repeated
             while (second != "1" && second != "2" && second != "3")
             {
-                Console.WriteLine("Please select second file to read GitRep_1b [1] GitRep_2b [2] GitRep_3b [3]");
+                Console.WriteLine("Please select second file to read \nGitRep_1b [1] \nGitRep_2b [2] \nGitRep_3b [3]");
                 second = Console.ReadLine();
             }
     //SECOND SWITCH
@@ -95,17 +94,19 @@ namespace OOP_2_Code
     //COMPARISON
             //essentially a bool, but assigned as an int because of how the string.compare function works
             int a = string.Compare(str1, str2);
-            //0 equals false, meaning there are no differences..
+            //0 equals false, meaning there are no differences
             if (a==0)
             {
-            //...as such, the line returned reflects this.
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("there are no differences between these files");
+                Console.ForegroundColor = ConsoleColor.White;
             }
-            //any value other than zero (though should only be 1) means there is a difference...
+            //any value other than zero (though should only be 1) means there is a difference
             else
             {
-                //...and again, the line reflects this.
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("There Are differences between these files");
+                Console.ForegroundColor = ConsoleColor.White;
             }
         }
     }
