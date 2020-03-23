@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace OOP_2_Code
 {
@@ -9,6 +10,25 @@ namespace OOP_2_Code
         public static string str1, str2;
         //files to be read
         public static string fileName1, fileName2;
+
+        //string takes input of the file name to reat and return the value
+        public static string SetText(string toRead)
+        {
+            try
+            {
+                //using the toRead value and StreamReader, a file is found at the file address and read if possible
+                using (StreamReader sr = new StreamReader(toRead))
+                {
+                    //returns the value of the read file to wherever the string is called, e.g. in a variable
+                    return sr.ReadToEnd();
+                }
+            }
+            catch (Exception E)
+            {
+                //the built in system returns the message created through the catch
+                return("exception: " + E.Message);
+            }
+        }
 
         static void Main()
         {
@@ -39,10 +59,8 @@ namespace OOP_2_Code
                     fileName1 = @"GitRepositories_3a.txt";
                     break;
             }
-            //executes a void in the FileReader class using the filename set 
-            FileReader.SetFile(fileName1);
             //sets str1 to be a string assigned in the previous void
-            str1 = FileReader.temp;
+            str1 = SetText(fileName1);
             //line to ensure user the file has been read
             Console.WriteLine(fileName1,  "File has been read \n");
 
@@ -71,10 +89,8 @@ namespace OOP_2_Code
                     fileName2 = @"GitRepositories_3b.txt";
                     break;
             }
-            //executes a void in the FileReader class using the filename set 
-            FileReader.SetFile(fileName2);
             //sets str2 to be a string assigned in the previous void, used as a temporary value in FileReader
-            str2 = FileReader.temp;
+            str2 = SetText(fileName2);
             Console.WriteLine("File has been read \n");
     //COMPARISON
             //essentially a bool, but assigned as an int because of how the string.compare function works
